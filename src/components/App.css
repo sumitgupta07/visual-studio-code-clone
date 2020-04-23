@@ -1,0 +1,51 @@
+.header {
+  min-width: 100vh;
+  margin-bottom: 1em;
+  margin-top: 0;
+  font-size: 1.5em;
+}
+.content {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: stretch;
+  color: #333;
+  background: #eee;
+  min-height: 100vh;
+  margin: 2em;
+}
+.sidebar {
+  flex: 2;
+  border: 1px solid #2291b1;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  flex: 10;
+  border: 1px solid #2291b1;
+  padding: 5px;
+}
+.editorpane {
+  flex: 24;
+  border: 1px solid #2291b1;
+}
+li {
+  list-style-type: none;
+}
+.file-list {
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+}
+.file-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+.file-active {
+  background-color: white;
+  border: solid #ccc;
+  border-width: 1px 1px 0 1px;
+}

@@ -1,0 +1,359 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render App component 1`] = `
+<App>
+  <Header>
+    <div
+      className="header"
+    >
+      Visual Studio Code
+    </div>
+  </Header>
+  <Content>
+    <div
+      className="content"
+    >
+      <NavBar
+        onSelectNav={[Function]}
+      >
+        <div
+          className="sidebar"
+        >
+          <Icon
+            iconClass="far fa-copy fa-3x"
+            id="FileExplorer"
+            label="File Explorer"
+            onSelectIcon={[Function]}
+          >
+            <button
+              onClick={[Function]}
+            >
+              <div
+                className="tooltip"
+              >
+                <div
+                  className="icon"
+                >
+                  <i
+                    className="far fa-copy fa-3x"
+                  />
+                </div>
+                <div
+                  className="tooltiptext"
+                >
+                  <span>
+                    File Explorer
+                  </span>
+                </div>
+              </div>
+            </button>
+          </Icon>
+          <Icon
+            iconClass="fas fa-search fa-rotate fa-3x"
+            id="Search"
+            label="Search"
+            onSelectIcon={[Function]}
+          >
+            <button
+              onClick={[Function]}
+            >
+              <div
+                className="tooltip"
+              >
+                <div
+                  className="icon"
+                >
+                  <i
+                    className="fas fa-search fa-rotate fa-3x"
+                  />
+                </div>
+                <div
+                  className="tooltiptext"
+                >
+                  <span>
+                    Search
+                  </span>
+                </div>
+              </div>
+            </button>
+          </Icon>
+          <Icon
+            iconClass="fas fa-code-branch fa-3x"
+            id="SourceControl"
+            label="Source Control"
+            onSelectIcon={[Function]}
+          >
+            <button
+              onClick={[Function]}
+            >
+              <div
+                className="tooltip"
+              >
+                <div
+                  className="icon"
+                >
+                  <i
+                    className="fas fa-code-branch fa-3x"
+                  />
+                </div>
+                <div
+                  className="tooltiptext"
+                >
+                  <span>
+                    Source Control
+                  </span>
+                </div>
+              </div>
+            </button>
+          </Icon>
+          <Icon
+            iconClass="fas fa-bug fa-3x"
+            id="Debug"
+            label="Debug"
+            onSelectIcon={[Function]}
+          >
+            <button
+              onClick={[Function]}
+            >
+              <div
+                className="tooltip"
+              >
+                <div
+                  className="icon"
+                >
+                  <i
+                    className="fas fa-bug fa-3x"
+                  />
+                </div>
+                <div
+                  className="tooltiptext"
+                >
+                  <span>
+                    Debug
+                  </span>
+                </div>
+              </div>
+            </button>
+          </Icon>
+          <Icon
+            iconClass="fas fa-th-large fa-3x"
+            id="Extensions"
+            label="Extensions"
+            onSelectIcon={[Function]}
+          >
+            <button
+              onClick={[Function]}
+            >
+              <div
+                className="tooltip"
+              >
+                <div
+                  className="icon"
+                >
+                  <i
+                    className="fas fa-th-large fa-3x"
+                  />
+                </div>
+                <div
+                  className="tooltiptext"
+                >
+                  <span>
+                    Extensions
+                  </span>
+                </div>
+              </div>
+            </button>
+          </Icon>
+        </div>
+      </NavBar>
+      <SelectPane
+        currentSelection="File Explorer"
+        onSelectFile={[Function]}
+      >
+        <FileExplorer
+          onSelectFile={[Function]}
+        >
+          <div
+            className="navbar"
+          >
+            <h3>
+              File Explorer
+            </h3>
+            <i
+              className="fas fa-folder-open"
+            >
+                
+              <span>
+                src
+              </span>
+              <ul>
+                <li
+                  id="a"
+                  key="a"
+                  onClick={[Function]}
+                >
+                  <i
+                    className="far fa-file"
+                  >
+                     
+                    index.js
+                  </i>
+                </li>
+                <li
+                  id="b"
+                  key="b"
+                  onClick={[Function]}
+                >
+                  <i
+                    className="far fa-file"
+                  >
+                     
+                    App.js
+                  </i>
+                </li>
+                <li
+                  id="c"
+                  key="c"
+                  onClick={[Function]}
+                >
+                  <i
+                    className="far fa-file"
+                  >
+                     
+                    Content.js
+                  </i>
+                </li>
+              </ul>
+            </i>
+          </div>
+        </FileExplorer>
+      </SelectPane>
+      <EditorPane
+        activeFile={
+          Object {
+            "content": "Placeholder for index.js. It has App.js as child components",
+            "fileName": "index.js",
+            "id": "a",
+          }
+        }
+        onSelectFile={[Function]}
+      >
+        <div
+          className="editorpane"
+        >
+          <h3>
+            Editor Pane
+          </h3>
+          <div
+            className="files"
+          >
+            <ul
+              className="file-list"
+            >
+              <FileTab
+                activeFile={
+                  Object {
+                    "content": "Placeholder for index.js. It has App.js as child components",
+                    "fileName": "index.js",
+                    "id": "a",
+                  }
+                }
+                file={
+                  Object {
+                    "content": "Placeholder for index.js. It has App.js as child components",
+                    "fileName": "index.js",
+                    "id": "a",
+                  }
+                }
+                key="a"
+                onClick={[Function]}
+              >
+                <li
+                  className="file-list-item file-active"
+                  id="a"
+                  onClick={[Function]}
+                >
+                  index.js
+                </li>
+              </FileTab>
+              <FileTab
+                activeFile={
+                  Object {
+                    "content": "Placeholder for index.js. It has App.js as child components",
+                    "fileName": "index.js",
+                    "id": "a",
+                  }
+                }
+                file={
+                  Object {
+                    "content": "Placeholder for App.js. It has Header and Content as child components",
+                    "fileName": "App.js",
+                    "id": "b",
+                  }
+                }
+                key="b"
+                onClick={[Function]}
+              >
+                <li
+                  className="file-list-item"
+                  id="b"
+                  onClick={[Function]}
+                >
+                  App.js
+                </li>
+              </FileTab>
+              <FileTab
+                activeFile={
+                  Object {
+                    "content": "Placeholder for index.js. It has App.js as child components",
+                    "fileName": "index.js",
+                    "id": "a",
+                  }
+                }
+                file={
+                  Object {
+                    "content": "Placeholder for Content.js file. It has Navbar, SelectPane and EditorPane as child components",
+                    "fileName": "Content.js",
+                    "id": "c",
+                  }
+                }
+                key="c"
+                onClick={[Function]}
+              >
+                <li
+                  className="file-list-item"
+                  id="c"
+                  onClick={[Function]}
+                >
+                  Content.js
+                </li>
+              </FileTab>
+            </ul>
+          </div>
+          <FileContent
+            currentFile={
+              Object {
+                "content": "Placeholder for index.js. It has App.js as child components",
+                "fileName": "index.js",
+                "id": "a",
+              }
+            }
+            key="a"
+          >
+            <div
+              id="a"
+            >
+              Placeholder for index.js. It has App.js as child components
+            </div>
+          </FileContent>
+        </div>
+      </EditorPane>
+    </div>
+  </Content>
+  <Footer>
+    <div>
+      Contact Us
+    </div>
+  </Footer>
+</App>
+`;

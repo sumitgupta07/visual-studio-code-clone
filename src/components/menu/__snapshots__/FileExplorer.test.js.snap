@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render File Explorer component 1`] = `
+<div
+  className="navbar"
+>
+  <h3>
+    File Explorer
+  </h3>
+  <i
+    className="fas fa-folder-open"
+  >
+      
+    <span>
+      src
+    </span>
+    <ul>
+      <li
+        id="a"
+        key="a"
+        onClick={[Function]}
+      >
+        <i
+          className="far fa-file"
+        >
+           
+          index.js
+        </i>
+      </li>
+      <li
+        id="b"
+        key="b"
+        onClick={[Function]}
+      >
+        <i
+          className="far fa-file"
+        >
+           
+          App.js
+        </i>
+      </li>
+      <li
+        id="c"
+        key="c"
+        onClick={[Function]}
+      >
+        <i
+          className="far fa-file"
+        >
+           
+          Content.js
+        </i>
+      </li>
+    </ul>
+  </i>
+</div>
+`;

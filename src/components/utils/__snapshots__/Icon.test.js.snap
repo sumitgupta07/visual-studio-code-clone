@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Icon component 1`] = `
+<button
+  onClick={[Function]}
+>
+  <div
+    className="tooltip"
+  >
+    <div
+      className="icon"
+    >
+      <i
+        className="fas fa-search fa-rotate fa-3x"
+      />
+    </div>
+    <div
+      className="tooltiptext"
+    >
+      <span>
+        Search
+      </span>
+    </div>
+  </div>
+</button>
+`;

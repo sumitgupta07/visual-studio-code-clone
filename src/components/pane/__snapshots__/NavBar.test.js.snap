@@ -1,0 +1,157 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render NavBar component 1`] = `
+<NavBar
+  onSelectNav={[MockFunction]}
+>
+  <div
+    className="sidebar"
+  >
+    <Icon
+      iconClass="far fa-copy fa-3x"
+      id="FileExplorer"
+      label="File Explorer"
+      onSelectIcon={[Function]}
+    >
+      <button
+        onClick={[Function]}
+      >
+        <div
+          className="tooltip"
+        >
+          <div
+            className="icon"
+          >
+            <i
+              className="far fa-copy fa-3x"
+            />
+          </div>
+          <div
+            className="tooltiptext"
+          >
+            <span>
+              File Explorer
+            </span>
+          </div>
+        </div>
+      </button>
+    </Icon>
+    <Icon
+      iconClass="fas fa-search fa-rotate fa-3x"
+      id="Search"
+      label="Search"
+      onSelectIcon={[Function]}
+    >
+      <button
+        onClick={[Function]}
+      >
+        <div
+          className="tooltip"
+        >
+          <div
+            className="icon"
+          >
+            <i
+              className="fas fa-search fa-rotate fa-3x"
+            />
+          </div>
+          <div
+            className="tooltiptext"
+          >
+            <span>
+              Search
+            </span>
+          </div>
+        </div>
+      </button>
+    </Icon>
+    <Icon
+      iconClass="fas fa-code-branch fa-3x"
+      id="SourceControl"
+      label="Source Control"
+      onSelectIcon={[Function]}
+    >
+      <button
+        onClick={[Function]}
+      >
+        <div
+          className="tooltip"
+        >
+          <div
+            className="icon"
+          >
+            <i
+              className="fas fa-code-branch fa-3x"
+            />
+          </div>
+          <div
+            className="tooltiptext"
+          >
+            <span>
+              Source Control
+            </span>
+          </div>
+        </div>
+      </button>
+    </Icon>
+    <Icon
+      iconClass="fas fa-bug fa-3x"
+      id="Debug"
+      label="Debug"
+      onSelectIcon={[Function]}
+    >
+      <button
+        onClick={[Function]}
+      >
+        <div
+          className="tooltip"
+        >
+          <div
+            className="icon"
+          >
+            <i
+              className="fas fa-bug fa-3x"
+            />
+          </div>
+          <div
+            className="tooltiptext"
+          >
+            <span>
+              Debug
+            </span>
+          </div>
+        </div>
+      </button>
+    </Icon>
+    <Icon
+      iconClass="fas fa-th-large fa-3x"
+      id="Extensions"
+      label="Extensions"
+      onSelectIcon={[Function]}
+    >
+      <button
+        onClick={[Function]}
+      >
+        <div
+          className="tooltip"
+        >
+          <div
+            className="icon"
+          >
+            <i
+              className="fas fa-th-large fa-3x"
+            />
+          </div>
+          <div
+            className="tooltiptext"
+          >
+            <span>
+              Extensions
+            </span>
+          </div>
+        </div>
+      </button>
+    </Icon>
+  </div>
+</NavBar>
+`;

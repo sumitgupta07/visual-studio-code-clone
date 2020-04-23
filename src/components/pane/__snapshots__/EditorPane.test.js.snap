@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render snapshot of Editor Pane Component 1`] = `
+<div
+  className="editorpane"
+>
+  <h3>
+    Editor Pane
+  </h3>
+  <div
+    className="files"
+  >
+    <ul
+      className="file-list"
+    >
+      <FileTab
+        activeFile={Object {}}
+        file={
+          Object {
+            "content": "Placeholder for index.js. It has App.js as child components",
+            "fileName": "index.js",
+            "id": "a",
+          }
+        }
+        key="a"
+        onClick={[Function]}
+      />
+      <FileTab
+        activeFile={Object {}}
+        file={
+          Object {
+            "content": "Placeholder for App.js. It has Header and Content as child components",
+            "fileName": "App.js",
+            "id": "b",
+          }
+        }
+        key="b"
+        onClick={[Function]}
+      />
+      <FileTab
+        activeFile={Object {}}
+        file={
+          Object {
+            "content": "Placeholder for Content.js file. It has Navbar, SelectPane and EditorPane as child components",
+            "fileName": "Content.js",
+            "id": "c",
+          }
+        }
+        key="c"
+        onClick={[Function]}
+      />
+    </ul>
+  </div>
+</div>
+`;
