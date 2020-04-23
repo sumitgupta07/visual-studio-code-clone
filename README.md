@@ -1,4 +1,5 @@
 # Visual studio Code Clone
+This project is bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 React demo app for visual studio clone. Minimal feature application.
 
 Steps to execute the application:
@@ -9,6 +10,7 @@ Steps to execute the application:
 4. Run "npm run test" command to run test cases
 
 ## Some of dependencies used for the project are :
+
 1. Font Awesome for icons
 2. Jest & Enzyme for unit testing
 3. Plain CSS/flexbox
