@@ -13,4 +13,4 @@ Steps to execute the application:
 2. Jest & Enzyme for unit testing
 3. Plain CSS/flexbox
 
-## This project will be extended to include Electron support, so that application can load file system and show real files and data.
+This project will be extended to include Electron support, so that application can load file system and show real files and data.
